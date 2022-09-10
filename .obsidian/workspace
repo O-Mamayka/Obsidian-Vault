@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "9a2d2f6cc4ebdfb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7dfbf373f2f7183",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1b40674c6906c48",
+    "type": "split",
+    "children": [
+      {
+        "id": "136a758f5510c8e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36abb06902fe0726",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c8504e74f490e015",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "642b8b253957a6aa",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5
+  },
+  "right": {
+    "id": "c4516cf54531e5ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "e726eb328e1e9673",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1b51d26410a3eb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "918e91c8afd931ed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7e871b4ffbaea12",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ab30e6037d79934",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "36abb06902fe0726",
+  "lastOpenFiles": [
+    "Pasted image 20220910111727.png",
+    "DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md"
+  ]
+}
