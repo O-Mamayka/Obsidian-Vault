@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
+            "file": "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 10. Предобработка данных. Принцип GIGO.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 521.5
+    "width": 338.5
   },
   "right": {
     "id": "c4516cf54531e5ee",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
+                "file": "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 10. Предобработка данных. Принцип GIGO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
+                "file": "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 10. Предобработка данных. Принцип GIGO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md"
+                "file": "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 10. Предобработка данных. Принцип GIGO.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "b3b782e9198a9583",
   "lastOpenFiles": [
-    "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 02. Первые графики и выводы.md",
-    "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
-    "Pasted image 20220910152319.png",
-    "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 01. Исследовательский анализ.md",
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 09. Библиотека pandas.md",
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 10. Предобработка данных. Принцип GIGO.md",
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 08. Словари и списки.md",
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 07. Функции.md",
     "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 04. Цикл for.md",
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 06. Условный оператор. Цикл while.md",
+    "Data Science/DS.01 Базовый Python/1.6.md",
     "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 05. Вложенные списки.md",
-    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 01. Переменные и типы данных. Вывод данных и арифметические операции.md",
-    "Data Science/DS.01 Базовый Python/note s.md",
-    "Data Science/DS.01 Базовый Python/note p.md",
-    "Data Science/DS.01 Базовый Python/note m.md"
+    "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
+    "Data Science/DS03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 02. Первые графики и выводы.md"
   ]
 }
