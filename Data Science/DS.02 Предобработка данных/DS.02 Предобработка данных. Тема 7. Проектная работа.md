@@ -1,4 +1,4 @@
- DS.02 Предобработка данных. Тема 7. Проектная работа 
+## DS.02 Предобработка данных. Тема 7. Проектная работа 
 
 **Описание проекта**
 
@@ -23,14 +23,12 @@
 
   
 
-Проектная работа. Часть 1.
---------------------------
+### Проектная работа. Часть 1.
 
 [https://practicum.yandex.ru/trainer/data-scientist/lesson/c32698c5-9dbc-4bdc-a7d7-5fe1254bff4d/task/f0bac457-87e9-4944-a9c0-cde93c9265d9/](https://practicum.yandex.ru/trainer/data-scientist/lesson/c32698c5-9dbc-4bdc-a7d7-5fe1254bff4d/task/f0bac457-87e9-4944-a9c0-cde93c9265d9/)
 
   
 
-Проектная работа. Часть 2.
---------------------------
+### Проектная работа. Часть 2.
 
 [https://practicum.yandex.ru/trainer/data-scientist/lesson/116b3dd9-eb08-4a41-a9d3-a58f6f2be949/](https://practicum.yandex.ru/trainer/data-scientist/lesson/116b3dd9-eb08-4a41-a9d3-a58f6f2be949/)

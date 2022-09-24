@@ -175,7 +175,7 @@ arrivals['date_datetime'] = pd.to_datetime( arrivals['date'], format='%d.%m.%YZ%
 
 arrivals['month'] = pd.DatetimeIndex(arrivals['date_datetime']).month
 
-# Получение из столбца с датой и временем...
+## Получение из столбца с датой и временем...
 ```python
 pd.DatetimeIndex(data['time']).year # года
 
@@ -348,10 +348,17 @@ print(data_subcategory.head(10))
 
 Аргументы метода:
 
-* _index_ — столбец или столбцы, по которым группируют данные (название товара)
-* _columns_ — столбец, по значениям которого происходит группировка (даты)
-* _values_ — значения, по которым мы хотим увидеть сводную таблицу (количество проданного товара)
-* _aggfunc_ — функция, применяемая к значениям (сумма товаров)
+* _`index`_ — столбец или столбцы, по которым группируют данные (название товара)
+* _`columns`_ — столбец, по значениям которого происходит группировка (даты)
+* _`values`_ — значения, по которым мы хотим увидеть сводную таблицу (количество проданного товара)
+* _`aggfunc`_ — функция, применяемая к значениям (сумма товаров). Например:
+-   `median` — медианное значение;
+-   `count` — количество значений;
+-   `sum` — сумма значений;
+-   `min` — минимальное значение;
+-   `max` — максимальное значение;
+-   `first` — первое значение из группы;
+-   `last` — последнее значение из группы.
 
 ```python
 data_pivot = data.pivot_table(index = ['column1', 'column2'], columns = 'source', values = 'column_pivot', aggfunc = 'function')
@@ -410,7 +417,7 @@ print(data_pivot.sort_values(by='ratio', ascending=False).tail(10))
 print(data_pivot.loc[(data_pivot['direct'] > 1000) & (data_pivot['organic'] > 1000)].sort_values(by='ratio', ascending=False).tail(10))
 ```
 
-Чтобы ничего не забыть, скачайте [шпаргалку](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_takeaways_course2_theme2.pdf) и [конспект](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_abstract_course2_theme2.pdf) темы.
+Чтобы ничего не забыть, скачайте [шпаргалку](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_takeaways_course2_theme3.pdf) и [конспект](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_abstract_course2_theme3.pdf) темы.
 
 ### Где ещё почитать про изменение типов данных:
 

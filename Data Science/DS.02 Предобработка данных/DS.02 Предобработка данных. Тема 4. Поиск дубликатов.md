@@ -59,5 +59,5 @@ stock.loc[stock['item_lowercase'].str.contains('samsung'), 'count'] = samsung
 print(stock)
 ```
 
-[Более сложные алгоритмы поиска дубликатов в текстах и изображениях](https://habr.com/ru/post/275937/)
+## [Более сложные алгоритмы поиска дубликатов в текстах и изображениях](https://habr.com/ru/post/275937/)
 

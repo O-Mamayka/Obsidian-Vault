@@ -125,19 +125,15 @@ def alert_group(messages):
         return 'критичный'
 
 print(alert_group(10))
-
 print(alert_group(450))
-
 print(alert_group(1000))
 
 #добавим в таблицу новое поле с критерием важности_
-
 support_log_grouped['alert_group'] = support_log_grouped['user_id'].apply(alert_group)
 
 print(support_log_grouped.head(10))
 
 #подсчитаем сколько обращений по каждому приоритету_
-
 alert_count = support_log_grouped.groupby('alert_group')['user_id'].sum()
 
 print(alert_count)
@@ -204,7 +200,6 @@ age_group_unemployed(row)
 clients['age_group'] = clients.apply(age_group_unemployed, axis=1)
 ```
 
-
 ```Python
 #Проверяем:
 clients['age_group'] = clients.apply(age_group_unemployed, axis=1)
@@ -213,34 +208,32 @@ print(clients.head(10))
 print(clients['age_group'].value_counts())
 ```
   
-
 ### Лабораторка:
 ```Python
 import pandas as pd
-
 support_log_grouped = pd.read_csv('/datasets/support_log_grouped.csv')
 
 def alert_group_importance(row):
 
-importance = row['importance']
-
-alert_group = row['alert_group']
-
-if importance == 1:
-
-if alert_group == 'средний':
-
-return 'обратить внимание'
-
-elif alert_group == 'высокий':
-
-return 'высокий риск'
-
-elif alert_group == 'критичный':
-
-return 'блокер'
-
-return 'в порядке очереди'
+	importance = row['importance']
+	
+	alert_group = row['alert_group']
+	
+	if importance == 1:
+	
+		if alert_group == 'средний':
+		
+			return 'обратить внимание'
+		
+		elif alert_group == 'высокий':
+		
+			return 'высокий риск'
+		
+		elif alert_group == 'критичный':
+		
+			return 'блокер'
+	
+	return 'в порядке очереди'
 ```
   
 ```Python
@@ -254,8 +247,6 @@ row = pd.Series(data=row_values, index=row_columns)
 
 #Формируем новый столбец функцией
 support_log_grouped['importance_status'] = support_log_grouped.apply(alert_group_importance, axis=1)
-
-#print(support_log_grouped)
 
 #Выводим новый столбец сгруппированный и упорядоченный value_counts
 print(support_log_grouped['importance_status'].value_counts())
@@ -271,10 +262,10 @@ clients_df['age_category'] = clients_df.apply(categorize_age, axis=1)
 Параметр `axis` позволит применить код к нужным элементам: строкам или столбцам
 
 axis=1, если нужно применить функцию к строкам
-
 axis=0, если нужно применить функцию к столбцам
 
-  
+
+# ШПОРЫ?
 
   
 

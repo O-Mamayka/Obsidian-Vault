@@ -417,8 +417,8 @@ print(len(data.query('time_spent < 60')) / len(data))
 
 ```python
 import pandas as pd
-
 data = pd.read_csv('/datasets/visits.csv', sep='\t')
+
 data['too_fast'] = data['time_spent'] < 60
 too_fast_stat = data.pivot_table(index='id', values='too_fast')
 
