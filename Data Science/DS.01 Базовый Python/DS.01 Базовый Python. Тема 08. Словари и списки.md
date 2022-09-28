@@ -157,6 +157,6 @@ print(dumps(movies_table, indent=4, ensure_ascii=False))
 Не забудьте [шпаргалку по словарям](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_takeaways_basicPython_theme8.pdf),
 
 
-[https://pictures.s3.yandex.net/resources/concept\_karta\_changes_1640089673.png](https://pictures.s3.yandex.net/resources/concept_karta_changes_1640089673.png)
+[https://pictures.s3.yandex.net/resources/concept_karta_changes_1640089673.png](https://pictures.s3.yandex.net/resources/concept_karta_changes_1640089673.png)
 
 ![КатраАнализа|640x480](https://pictures.s3.yandex.net/resources/concept_karta_changes_1640089673.png)

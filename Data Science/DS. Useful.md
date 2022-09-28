@@ -274,7 +274,7 @@ df = df[df.duplicated()].sample() # случайные n строк
 ```python
 df = df.drop_duplicates()
 
-df = df.drop_duplicates().reset_index() #\- создаст новые инжексы, а старые перенесёт в новую колонку
+df = df.drop_duplicates().reset_index() # создаст новые инжексы, а старые перенесёт в новую колонку
 
 df = df.drop_duplicates().reset_index(drop=True) #заменит старые индексы
 ```

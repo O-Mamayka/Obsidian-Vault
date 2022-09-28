@@ -51,7 +51,7 @@ else:
 
 import pandas as pd
 purchases = pd.read_csv('/datasets/returned.csv')
-purchases['total'] = purchases['first'] \+ purchases['repeated']
+purchases['total'] = purchases['first'] + purchases['repeated']
 purchases['repeated_share'] = purchases['repeated'] / purchases['total']
 print(purchases.sort_values(by='repeated_share', ascending=False))
 ```  
