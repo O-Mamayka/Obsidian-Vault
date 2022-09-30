@@ -305,7 +305,7 @@ print(sample['id'].count())
 sample.plot(x='local_time', y='time_spent', style='o', ylim=(0, 1000), grid=True, figsize=(12, 6))
 ```
 
-### Урок 9. Группировка с pivot_table()
+### [Урок 9. Группировка с pivot_table()](https://practicum.yandex.ru/trainer/data-scientist/lesson/8e87ce43-164c-4900-b8da-669ded4746f6/task/ef78591e-aa74-4689-ac29-2afc86c1ce3e/)
 
 Прежде чем строить красивый график, позаботимся о красивом коде. В прошлом уроке вы сохранили срез в переменной `sample` и к ней применили метод `plot()`.
 Entia non sunt multiplicanda praeter necessitatem — «Не следует множить сущности без необходимости». Фраза раскрывает принцип, названный **«Бритва Оккама»** в честь философа XIII века, монаха Уильяма из английской деревушки Оккам. Суть принципа: совершенство должно быть простым.
@@ -330,6 +330,7 @@ data.plot(x='column1', # столбец значений для горизонт
 # одна команда в несколько строк: не забыть заключить конструкцию в скобки
 ```
 
+Обратимся к `pivot_table()`. Добавим сводную таблицу в цепочку между `query()` и `plot()`:
 ```python
 data['date_time'] = pd.to_datetime(
     data['date_time'], format='%Y-%m-%dT%H:%M:%S'

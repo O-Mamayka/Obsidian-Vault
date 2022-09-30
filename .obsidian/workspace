@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md",
+            "file": "Data Science/DS. Useful.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\-",
+                "query": "dt.ceil",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md",
+                "file": "Data Science/DS. Useful.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md",
+                "file": "Data Science/DS. Useful.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md"
+                "file": "Data Science/DS. Useful.md"
               }
             }
           }
@@ -129,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8504e74f490e015",
+  "active": "b3b782e9198a9583",
   "lastOpenFiles": [
+    "Data Science/DS. Useful_0.md",
+    "Data Science/DS. Useful.md",
+    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 04. Работа с несколькими источниками данных.md",
+    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
+    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 06. Валидация результатов.md",
+    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 07. Проектная работа.md",
+    "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md",
     "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 09. Библиотека pandas.md",
     "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 03. Списки.md",
-    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 02. Строки в Python.md",
-    "Data Science/DS. Useful.md",
-    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 08. Словари и списки.md",
-    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 07. Проектная работа.md",
-    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 02. Первые графики и выводы.md",
-    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 01. Исследовательский анализ.md",
-    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 03. Изучение срезов данных.md",
-    "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 2. Работа с пропусками.md"
+    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 02. Строки в Python.md"
   ]
 }

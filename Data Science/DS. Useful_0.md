@@ -99,6 +99,7 @@ for elem in row: #  в очередном внутреннем списке пе
 ```
 
 
+
 movies_table_sorted = sorted(movies_table, key=**lambda** row: row[5], reverse=True)
 
 * `islower()` — возвращает `True`, если в строке нет прописных букв;
@@ -195,12 +196,12 @@ df[['genre', 'Artist']]
 df[2:5]
 
 print(board_df.loc[5:6, ['C','D','E','F']])
-```
 
 df[~df['number'].isin([4,5])] # фильтр выберет строки КРОМЕ 4,5
 
 df.query('a in @our_series') # Срез по данным из внешнего словаря
 
+```
 
 ### Логическая индексация
 
@@ -475,7 +476,7 @@ df = df.drop_duplicates().reset_index(drop=True) # удалить дублика
 models_counts = stock['item'].value_counts()
 ```
 
-Чтобы ничего не забыть, скачайте [шпаргалку](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_takeaways_course2_theme4.pdf) и [конспект](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_abstract_course2_theme4.pdf) темы.
+# Чтобы ничего не забыть, скачайте [шпаргалку](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_takeaways_course2_theme4.pdf) и [конспект](https://code.s3.yandex.net/data-analyst/praktikum_data_analysis_abstract_course2_theme4.pdf) темы.
 
 ### Функции
 ```Python
@@ -520,6 +521,7 @@ print(df.query('Travel_time_from < @max_time and Airline in ["Belavia", "S7", "R
 ```
 
 **Работа с датой и временем
+
 ```python
 df['time'] = pd.to_datetime(df['time'], format='%Y-%m-%d %H:%M')
 df['time_rounded'] = df['time'].dt.round('1H') # округляем до ближайшего значения с шагом в один (1y, 1m, 1d, 1H, 1T, 1S)
@@ -530,131 +532,66 @@ df['ny'] = df['msk'] + pd.Timedelta(hours=-7)
 
 **Графики
 ```python
-df.plot(x='b', y='a', style='o-', xlim=(0, 30), grid=True, figsize=(10, 3), title='A и B')
+df.plot(x='b', y='a', style='o-', xlim=(0, 30), grid=True, figsize=(10, 3))
 ```
 
-**Срезы с query
-```
+
+
+Срезы с query
 print(len(data.query('time_spent < 60')) / len(data))
-```
 
 **Объединение данных
-```
 data1.merge(data2, on='author', how='left') # название столбца, по которому объединять, передают в параметре `on`
 
 first_pupil_df.merge(second_pupil_df, on='author', how='left')
 
 station_stat_full = id_name.join(good_stations_stat, on='id')
-```
 
 **Диаграмма рассеяния
 
-```
 data.plot(x='count', y='time_spent', kind='scatter', grid=True)
-```
 
 **Корреляция
 
-```
 hw.plot(x='height', y='weight', kind='scatter', alpha=0.015)
 hw.plot(x='height', y='weight', kind='hexbin', gridsize=20, figsize=(8, 6), sharex=False, grid=True)
 data.plot(y='column', kind='pie');
 data.sort_values(by='median_time', ascending=True).plot(y='median_time', kind='bar', figsize=(10,5))
 
 print(data['column_1'].corr(data['column_2']))
-```
 
-**Матрица рассеяния
+** Матрица рассеяния
 
-```
 pd.plotting.scatter_matrix(data, figsize=(9, 9))
-```
 
-** амена данных
+** Замена данных
 
-```python
 print(shopping.where(shopping != 'хамон', 'обойдусь')
-```
 
-**если name нет в big_nets_stat то заменить имя на другие
-```python
+# если name нет в big_nets_stat то заменить имя на другие
 station_stat_full['group_name'] = station_stat_full['name'].where(
     station_stat_full['name'].isin(big_nets_stat.index), 'Другие')
-```
 
-**Построить гистограму в цикле**
-```python
+# Построить гистограму в цикле
 for name, group_data in good_data.groupby('group_name'):
     group_data.hist('time_spent', bins=50)
-```
-
-```python
-data.plot(x='column1', # столбец значений для горизонтальной оси 
-		  y='column2', # столбец значений для вертикальной оси 
-		  style='o-', # стиль заполнения: 'o-'(точечно-линейный) 
-		  xlim=(0, 30), # границы по оси X 
-		  ylim=(30, 0), # границы по оси Y 
-		  figsize=(4, 5), # размеры картинки: (x_size, y_size) 
-		  grid=True) # отображать сетку или нет
-```
-
-```python
-data['date_time'] = pd.to_datetime(
-    data['date_time'], format='%Y-%m-%dT%H:%M:%S'
-)
-data['local_time'] = data['date_time'] + pd.Timedelta(hours=3)
-data['date_hour'] = data['local_time'].dt.round('1H')
-(
-    data.query('id == "3c1e4c52"')
-    .pivot_table(index='date_hour', values='time_spent')
-    .plot(grid=True, figsize=(12, 5))
-)
-```
-
-**Срез по данным из внешнего словаря
-
-print(df.query('a in @our_series.index')) # строим срез, в котором значения столбца a равны индексам Series, т. е. 0, 1 или 2
 
 
-**Два графика в одном
-```python
-ax = median_station_stat.plot(
-    kind='hist',
-    y='time_spent',
-    histtype='step',
-    range=(0, 500),
-    bins=25,
-    linewidth=5,
-    alpha=0.7,
-    label='raw',
-)
-good_stations_stat.plot(
-    kind='hist',
-    y='time_spent',
-    histtype='step',
-    range=(0, 500),
-    bins=25,
-    linewidth=5,
-    alpha=0.7,
-    label='filtered',
-    ax=ax,
-    grid=True,
-    legend=True,
-)```
-
-Построение столбчатой диаграммы 
-```python
-data.plot(y='column', kind='bar')
 
 
-```
-Выборочное изменение значения 
 
-```python
-data['column'].where(s > control_value, default_value) # если не выполняется условие - первый параметр, то значение заменяется на второй параметр
-```
 
-Валидация результатов
+
+
+## ПРОПУСКИ 
+................
+
+
+
+
+
+
+### DS.03. Исследовательский анализ данных. Тема 06. Валидация результатов
 Построение столбчатой диаграммы 
 ```python
 data.plot(y='column', kind='bar')
@@ -663,7 +600,9 @@ data.plot(y='column', kind='bar')
 ```python
 data.plot(y='column', kind='pie')
 ```
-
+Выборочное изменение значения 
+```python
+data['column'].where(s > control_value, default_value) # если не выполняется условие - первый параметр, то значение заменяется на второй параметр
 ```
 Срезы по значениям столбца 
 ```python
@@ -673,7 +612,8 @@ for column_value, column_slice in data.groupby('column'):
 	# do something
 ```
 
-**Взаимосвязь данных
+
+## Взаимосвязь данных
 
 **Построение точечной диаграммы (диаграммы рассеяния)**
 `data.plot(x='column_x', y='column_y', kind='scatter') `
