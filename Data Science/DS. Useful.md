@@ -687,3 +687,12 @@ for column_value, column_slice in data.groupby('column'):
 `data.corr()`
 
 
+#### Описательная статистика
+**Нахождение дисперсии
+```
+np.var(x)
+```
+**Извлечение квадратного корня 
+```
+np.sqrt(x)
+```
