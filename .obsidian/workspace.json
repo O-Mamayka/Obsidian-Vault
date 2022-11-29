@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "9a2d2f6cc4ebdfb7",
+    "id": "4babcefc615bde10",
     "type": "split",
     "children": [
       {
-        "id": "debf610b5e1925a3",
+        "id": "4c4bbb9a5cc95ff9",
         "type": "tabs",
         "children": [
           {
-            "id": "e57e8f33fc5ab3f0",
+            "id": "7d51a2fffce92fec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 02. Первая обученная модель.md",
+                "file": "Data Science/DS.08. Обучение с учителем/DS.08. Обучение с учителем. Тема 01. Введение в курс.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b1b40674c6906c48",
+    "id": "f2cbc9f3fe9c804a",
     "type": "split",
     "children": [
       {
-        "id": "136a758f5510c8e7",
+        "id": "69bde87b9c1203d8",
         "type": "tabs",
         "children": [
           {
-            "id": "36abb06902fe0726",
+            "id": "3266d786d1e4f8a7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,13 +43,13 @@
             }
           },
           {
-            "id": "c8504e74f490e015",
+            "id": "c191c94f968c5243",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "642b8b253957a6aa",
+            "id": "f122fca0ea555618",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,47 +69,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 619.5
+    "width": 300
   },
   "right": {
-    "id": "c4516cf54531e5ee",
+    "id": "efac6b71d3c8a8ea",
     "type": "split",
     "children": [
       {
-        "id": "e726eb328e1e9673",
+        "id": "8afb2e1e735de977",
         "type": "tabs",
         "children": [
           {
-            "id": "c1b51d26410a3eb2",
+            "id": "0ece5bca2cf2a08a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 02. Первая обученная модель.md",
+                "file": "Data Science/DS.08. Обучение с учителем/DS.08. Обучение с учителем. Тема 01. Введение в курс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "918e91c8afd931ed",
+            "id": "ce932990551efc74",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 02. Первая обученная модель.md",
+                "file": "Data Science/DS.08. Обучение с учителем/DS.08. Обучение с учителем. Тема 01. Введение в курс.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f7e871b4ffbaea12",
+            "id": "e149776c3e89ffe0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "3ab30e6037d79934",
+            "id": "004cbf320f377e87",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 02. Первая обученная модель.md"
+                "file": "Data Science/DS.08. Обучение с учителем/DS.08. Обучение с учителем. Тема 01. Введение в курс.md"
               }
             }
           }
@@ -136,20 +136,14 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "e57e8f33fc5ab3f0",
+  "active": "7d51a2fffce92fec",
   "lastOpenFiles": [
-    "Data Science/06_Введение в машинное обучение/praktikum_data_scientist_takeaways_course6_theme2.pdf",
+    "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 06. Проект.md",
+    "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 05. Переходим к регрессии.md",
+    "Data Science/DS. Useful.md",
+    "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 03. Качество модели.md",
+    "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 04. Улучшение модели.md",
     "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 02. Первая обученная модель.md",
-    "Data Science/06_Введение в машинное обучение/DS.06. Введение в машинное обучение. Тема 01. Введение в машинное обучение.md",
-    "Data Science/DS.04. Статистический анализ данных/DS.04. Статистический анализ данных. Тема 03. Теория вероятностей.md",
-    "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 5. Категоризация данных.md",
-    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 04. Цикл for.md",
-    "Data Science/DS.03. Исследовательский анализ данных/DS.03. Исследовательский анализ данных. Тема 04. Работа с несколькими источниками данных.md",
-    "Data Science/DS.04. Статистический анализ данных/DS.04. Статистический анализ данных. Тема 05. Проект.md",
-    "Data Science/DS.01 Базовый Python/DS.01 Базовый Python. Тема 02. Строки в Python.md",
-    "Data Science/DS.02 Предобработка данных/DS.02 Предобработка данных. Тема 6. Системное и критическое мышление в работе аналитика.md"
+    "asca.md"
   ]
 }
